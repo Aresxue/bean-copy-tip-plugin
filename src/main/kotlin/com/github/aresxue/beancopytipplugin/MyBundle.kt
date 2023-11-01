@@ -1,4 +1,4 @@
-package com.github.aresxue.beancopyvalidationplugin
+package com.github.aresxue.beancopytipplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

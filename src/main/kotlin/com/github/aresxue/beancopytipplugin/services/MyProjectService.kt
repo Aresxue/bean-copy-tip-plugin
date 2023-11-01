@@ -1,9 +1,9 @@
-package com.github.aresxue.beancopyvalidationplugin.services
+package com.github.aresxue.beancopytipplugin.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.aresxue.beancopyvalidationplugin.MyBundle
+import com.github.aresxue.beancopytipplugin.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

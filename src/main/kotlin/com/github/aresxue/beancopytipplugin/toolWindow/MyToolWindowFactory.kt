@@ -1,4 +1,4 @@
-package com.github.aresxue.beancopyvalidationplugin.toolWindow
+package com.github.aresxue.beancopytipplugin.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.aresxue.beancopyvalidationplugin.MyBundle
-import com.github.aresxue.beancopyvalidationplugin.services.MyProjectService
+import com.github.aresxue.beancopytipplugin.MyBundle
+import com.github.aresxue.beancopytipplugin.services.MyProjectService
 import javax.swing.JButton
 
 

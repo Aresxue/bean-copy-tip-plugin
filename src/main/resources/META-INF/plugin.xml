@@ -1,18 +1,22 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.aresxue.beancopyvalidationplugin</id>
-    <name>bean-copy-validation-plugin Template</name>
-    <vendor>aresxue</vendor>
+  <id>com.github.aresxue.beancopytipplugin</id>
+  <name>Bean-Copy-Tip</name>
+  <vendor>aresxue</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+  <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.aresxue.beancopyvalidationplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow
+      factoryClass="com.github.aresxue.beancopytipplugin.toolWindow.MyToolWindowFactory"
+      id="MyToolWindow"/>
+  </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.aresxue.beancopyvalidationplugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+  <applicationListeners>
+    <listener
+      class="com.github.aresxue.beancopytipplugin.listeners.MyApplicationActivationListener"
+      topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+  </applicationListeners>
 </idea-plugin>

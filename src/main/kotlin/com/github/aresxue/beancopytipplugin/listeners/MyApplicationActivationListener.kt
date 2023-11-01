@@ -1,4 +1,4 @@
-package com.github.aresxue.beancopyvalidationplugin.listeners
+package com.github.aresxue.beancopytipplugin.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

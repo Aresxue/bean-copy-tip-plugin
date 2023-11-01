@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# bean-copy-validation-plugin Changelog
+# bean-copy-tip-plugin Changelog
 
 ## [Unreleased]
 ### Added
